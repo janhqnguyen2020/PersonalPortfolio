@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joseph Nguyen Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&family=Martian+Mono:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&family=Monofett&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-checkerboard">
+        
+        <div id="top"></div><!--This helps back-to-top arrow-->
+        <div class="page">
+
+            <main>
+
+                <!-- Header with Navigation -->
+                <div class="header-bar">
+                    <header>
+                        <button type="button" class="back-to-top" aria-label="Back to Top">
+                            <img src="assets/arrow.png" alt="Back to Top Arrow Icon">
+                        </button>
+                        <nav class="navbar">
+                            <div class="navbar-middle">
+                                <ul class="navbar-links">
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#skills">Skills</a></li>
+                                    <li><a href="#projects">Projects</a></li>
+                                    <li><a href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </header>
+                </div>
+
+                <!-- About Section -->
+                <section id="about" class="section">
+                    <div class="heroSection">
+                        <div class="heroInner">
+
+                            <!-- Name Card -->
+                            <div class="nameBox">
+                                <h1><em>Joseph Nguyen</em></h1>
+                                <h3>Computer Science Undergraduate</h3>
+                                <h3>University of California, Irvine</h3>
+                                <div class="nameRow">
+                                    <p>(He/Him/His)</p>
+                                    <a href="https://www.uci.edu/" target="_blank" rel="noopener noreferrer" aria-label="University of California, Irvine Homepage">
+                                        <img class="anteater" src="assets/anteater.png" alt="UCI Anteater Mascot">
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- Interests Section -->
+                            <div class="interestSection">
+                                <div class="interestCard blue">
+                                    <span class="material-symbols-outlined interestIcon" aria-hidden="true">music_note_2</span>
+                                    <p class="interest-label">Singing</p>
+                                </div>
+                                <div class="interestCard blue">
+                                    <span class="material-symbols-outlined interestIcon" aria-hidden="true">auto_stories</span>
+                                    <p class="interest-label">Reading Manga</p>
+                                </div>
+                                <div class="interestCard blue">
+                                    <span class="material-symbols-outlined interestIcon" aria-hidden="true">park</span>
+                                    <p class="interest-label">Hiking</p>
+                                </div>
+                                <div class="interestCard red">
+                                    <span class="material-symbols-outlined interestIcon" aria-hidden="true">rice_bowl</span>
+                                    <p class="interest-label">Asian Food</p>
+                                </div>
+                                <div class="interestCard red">
+                                    <span class="material-symbols-outlined interestIcon" aria-hidden="true">sports_mma</span>
+                                    <p class="interest-label">Kickboxing</p>
+                                </div>
+                                <div class="interestCard red">
+                                    <span class="material-symbols-outlined interestIcon" aria-hidden="true">theaters</span>
+                                    <p class="interest-label">Theaters</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- Summary -->
+                    <div class="summaryContainer">
+                        <div class="summaryBox">
+                            <h2>Summary</h2>
+                            <p>
+                                Computer Science undergraduate at UC Irvine with a genuine interest in using technology to solve meaningful problems and build engaging digital experiences.
+                                Pursued computer science to combine analytical thinking with creativity, particularly in areas where data, algorithms, and user interaction intersect.
+                                Motivated by understanding how systems work beneath the surface and how design decisions impact real users.
+                                Thrives in collaborative environments and enjoys learning through building, experimenting, and refining ideas into polished solutions.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Skills Section -->
+                <section id="skills" class="section">
+                    <div class="skillsBox">
+                        <h2>Skills</h2>
+                        <div class="skill-Category">
+                            <h4>Languages</h4>
+                            <br>
+                            <div class="skillPill">JavaScript</div>
+                            <div class="skillPill">Python</div>
+                            <div class="skillPill">Java</div>
+                            <div class="skillPill">C++</div>
+                            <div class="skillPill">SQL</div>
+                        </div>
+
+                        <div class="skill-Category">
+                            <h4>Frameworks & Tools</h4>
+                            <br>
+                            <div class="skillPill">React</div>
+                            <div class="skillPill">HTML & CSS</div>
+                            <div class="skillPill">Node.js</div>
+                            <div class="skillPill">Git & GitHub</div>
+                            <div class="skillPill">Figma</div>
+                        </div>
+
+                        <div class="skill-Category">
+                            <h4>Concepts</h4>
+                            <div class="skillPill">Object-Oriented Programming</div>
+                            <div class="skillPill">Data Structures & Algorithms</div>
+                            <div class="skillPill">Component-Based Architecture</div>
+                            <div class="skillPill">Agile Methodologies</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="section">
+                    <div class="projectsBox">
+                        <h2>Projects</h2>
+
+                        <!-- Project 1: HelloHealth -->
+                        <div class="projectCard">
+                            <h3>HelloHealth — Healthcare Accessibility Design Project</h3>
+
+                            <div class="cardRow">
+                                <div class="cardColumn">
+                                    <div class="dateBoxes">
+                                        <div class="dateBox startDate">
+                                            <p class="dateLabel">Start</p>
+                                            <p class="dateValue">March 2025</p>
+                                        </div>
+                                        <div class="dateBox endDate">
+                                            <p class="dateLabel">End</p>
+                                            <p class="dateValue">June 2025</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillsSection">
+                                        <h4>Skills</h4>
+                                        <div class="skillsContainer">
+                                            <div class="skillPill">Figma</div>
+                                            <div class="skillPill">User Research & Personas</div>
+                                            <div class="skillPill">UI/UX Design</div>
+                                            <div class="skillPill">Prototyping & Usability Testing</div>
+                                            <div class="skillPill">Competitive Analysis</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="summarySection">
+                                        <h4>Summary</h4>
+                                        <p>Designed an interactive healthcare application prototype aimed at improving accessibility for non-native English speakers. The project focused on reducing communication barriers in medical settings by simplifying symptom reporting, clarifying medical terminology, and supporting multilingual users through guided workflows.</p>
+                                    </div>
+                                </div>
+
+                                <div class="imageColumn">
+                                    <div class="imageCarousel" data-project="0">
+                                        <img src="assets/helloHealth1.png" alt="HelloHealth App - Login screen" class="projectImage">
+                                    </div>
+
+                                    <div class="imageIndicators">
+                                        <button class="indicator active" data-project="0" data-index="0" aria-label="Go to image 1"></button>
+                                        <button class="indicator" data-project="0" data-index="1" aria-label="Go to image 2"></button>
+                                        <button class="indicator" data-project="0" data-index="2" aria-label="Go to image 3"></button>
+                                        <button class="indicator" data-project="0" data-index="3" aria-label="Go to image 4"></button>
+                                    </div>
+
+                                    <div class="insightsSection">
+                                        <h4>Insights</h4>
+                                        <ul>
+                                            <li>Learned how user research directly informs interface decisions and feature prioritization</li>
+                                            <li>Gained experience designing workflows that reduce user error rather than just improving aesthetics</li>
+                                            <li>Developed an understanding of how accessibility and clarity impact real-world user outcomes</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Project 2: Anime Recommendation System -->
+                        <div class="projectCard">
+                            <h3>Anime Recommendation System — (Content-Based NLP)</h3>
+
+                            <div class="cardRow">
+                                <div class="cardColumn">
+                                    <div class="dateBoxes">
+                                        <div class="dateBox startDate">
+                                            <p class="dateLabel">Start</p>
+                                            <p class="dateValue">November 2024</p>
+                                        </div>
+                                        <div class="dateBox endDate">
+                                            <p class="dateLabel">End</p>
+                                            <p class="dateValue">December 2024</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="skillsSection">
+                                        <h4>Skills</h4>
+                                        <div class="skillsContainer">
+                                            <div class="skillPill">Python</div>
+                                            <div class="skillPill">Natural Language Processing (NLP)</div>
+                                            <div class="skillPill">Scikit-learn</div>
+                                            <div class="skillPill">NLTK</div>
+                                            <div class="skillPill">Pandas</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="summarySection">
+                                        <h4>Summary</h4>
+                                        <p>Developed a content-based recommendation system to help users discover anime titles similar to their interests by analyzing textual descriptions and metadata. The project emphasized applying natural language processing techniques to real datasets and translating similarity measures into meaningful recommendations.</p>
+                                    </div>
+                                </div>
+
+                                <div class="imageColumn">
+                                    <div class="imageCarousel" data-project="1">
+                                        <img src="assets/anime1.png" alt="Anime Recommendation System - table of anime data" class="projectImage">
+                                    </div>
+
+                                    <div class="imageIndicators">
+                                        <button class="indicator active" data-project="1" data-index="0" aria-label="Go to image 1"></button>
+                                        <button class="indicator" data-project="1" data-index="1" aria-label="Go to image 2"></button>
+                                        <button class="indicator" data-project="1" data-index="2" aria-label="Go to image 3"></button>
+                                        <button class="indicator" data-project="1" data-index="3" aria-label="Go to image 4"></button>
+                                    </div>
+
+                                    <div class="insightsSection">
+                                        <h4>Insights</h4>
+                                        <ul>
+                                            <li>Learned how text preprocessing and feature extraction affect recommendation quality</li>
+                                            <li>Gained intuition for similarity metrics and vector-based representations</li>
+                                            <li>Developed experience working with noisy real-world datasets and evaluating recommendation relevance</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Contact Section -->
+                <section id="contact" class="section">
+                    <div class="contactBox">
+                        <h2>Contact</h2>
+
+                        <div class="contactRow">
+                            <a href="https://www.linkedin.com/in/jaq-nguyen/" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/link.png" alt="LinkedIn Logo" aria-label="LinkedIn Icon Link">
+                            </a>
+
+                            <a href="https://github.com/janhqnguyen2020" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/git.png" alt="GitHub Logo" aria-label="Git Icon Link">
+                            </a>
+
+                            <a href="https://www.instagram.com/thunder_joseph/" target="_blank" rel="noopener noreferrer">
+                                <img src="assets/insta.svg" alt="Instagram Logo" aria-label="Instagram Icon Link">
+                            </a>
+                        </div>
+
+                        <div class="ContactRow">
+                            <a href="contact.html">
+                                <button>
+                                    <p>Message Me</p>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="portfolio-footer">
+        <div class="footer-divider"></div>
+        <div class="footer-row">
+            <span class="material-symbols-outlined">sentiment_satisfied</span>
+            <p>© 2025 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.summaryBox {
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: var(--radius);
+
+    max-width: 800px;     
+    width: 100%;     
+    padding: 30px 28px;
+
+    box-shadow: var(--shadow), var(--whiteGlow); /* bold graphic shadow */
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    text-align: center;
+    padding-top: 30px;
+}
+
+.summaryBox h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.summaryBox p {
+    font-size: 14px;
+    margin-top: 4px;
+    justify-content: center;
+    line-height: 1.6;
+}

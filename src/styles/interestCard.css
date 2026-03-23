@@ -1,0 +1,31 @@
+.interestCard {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+
+  background: var(--white);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow), var(--whiteGlow); /* bold graphic shadow */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+}
+
+.interestIcon {
+  font-size: 60px;
+  padding-top: 10px;
+  color: var(--black);
+}
+
+/* color variants */
+.interestCard.red {
+  background: var(--red);
+}
+
+.interestCard.blue {
+  background: var(--blue);
+}

@@ -1,0 +1,56 @@
+.nameBox {
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: var(--radius);
+
+    max-width: 350px;          /* KEY: fixed card width */
+    width: 100%;
+    padding: 30px 28px;
+
+    box-shadow: var(--shadow),
+    var(--whiteGlow); /* bold graphic shadow */
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    text-align: left;
+}
+
+.nameBox h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.nameBox h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.nameBox p {
+    font-size: 14px;
+    margin-top: 4px;
+    opacity: 0.85;
+    background-color: var(--blue);
+    border-radius: 99px;
+    width: 120px;
+
+    display:inline-flex;
+    justify-content: center;
+    padding: 6px 12px;
+}
+
+.nameRow {
+    display: flex;
+    align-items: center;
+    gap: clamp(16px, 4vw, 50px); /* responsive gap */
+}
+
+.anteater {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}

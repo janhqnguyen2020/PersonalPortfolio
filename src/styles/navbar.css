@@ -1,0 +1,54 @@
+.navbar {    
+    background: var(--white);
+    border: var(--border);
+    
+    box-shadow: 10px 10px 0 var(--black),
+                0 0 40px rgba(255, 255, 255, 0.9); /*glow effect*/
+    border-radius: var(--radius);
+
+    padding: 40px 50px;
+
+    position: fixed;
+    top: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+}
+
+
+/*middle*/
+.navbar-middle {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/*make links horizontal*/
+.navbar-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-links li {
+    margin-right: 1.5rem;
+}
+
+.navbar-links li:last-child {
+    margin-right: 0;
+}
+
+.navbar-links a {
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 10px;
+    border-radius: var(--radius);
+}
+
+.navbar-links a:hover {
+    background-color: var(--blue);
+    box-shadow: 5px 5px 0 var(--red),
+                0 0 10px var(--black); /*glow effect*/
+}

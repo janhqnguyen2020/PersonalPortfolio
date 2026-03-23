@@ -1,0 +1,92 @@
+:root {
+  --border: 2px solid #000;
+  --radius: 10px;
+  --shadow: 8px 8px 0 #000;
+  --whiteGlow: 0 0 30px rgba(255, 255, 255, 0.9);
+
+  --blue: #47d7ff;
+  --red: #ff2d2d;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+[data-theme="toxic"] {
+  --blue: #3AE13A;
+  --red: #B63FDA;
+}
+
+[data-theme="unroyal"] {
+  --blue: #160EAB;
+  --red: #BA921A;
+}
+
+#root, html, body {
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden; /* prevent horizontal scroll*/
+}
+
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.background-checkerboard {
+  --c1: var(--black); 
+  --c2: var(--red); 
+  --c3: var(--blue); 
+
+  min-height: 100vh;/*background fills at least one screen*/
+  width: 100%;
+
+    /* Checkerboard background */
+  background: conic-gradient(
+  from 290deg at 45% 20%,
+  var(--c3) 0deg 90deg,
+  var(--c1) 90deg 180deg,
+  var(--c2) 180deg 270deg,
+  var(--c1) 270deg 360deg
+  );
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section {
+  min-height: 50vh; /*make each section screen sized */
+  padding: 4rem 2rem 2rem; /* top padding under navbar */
+  scroll-margin-top: 80px; /* offset for navbar height */
+  margin-top: 30px;
+  
+}
+
+.heroSection {
+    display: flex; /* horizontal layout */
+    align-items: stretch; /* stretch to same height */
+    gap: 10px; /* space between columns */
+    width: 100%;
+    padding-top: 24px;
+    justify-content: center;
+}
+
+
+.heroInner {
+  display: flex;
+  align-items: stretch;
+  gap: 30px;
+
+  max-width: 900px; /* prevent interests from flying far right */
+  width: 100%;
+}
+
+.summaryContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  padding-top: 30px;
+}

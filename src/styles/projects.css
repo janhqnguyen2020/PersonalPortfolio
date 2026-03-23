@@ -1,0 +1,231 @@
+.projectsBox {
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: var(--radius);
+
+    max-width: 1600px;     
+    width: 100%;     
+    padding: 20px 28px;
+    margin: 0 auto;
+
+    box-shadow: var(--shadow), var(--whiteGlow); /* bold graphic shadow */
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.projectsBox h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px 0 10px 0;
+    color: var(--black);
+}
+
+.projectCard {
+    width: 90%;
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 25px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: var(--white);
+}
+
+.projectCard h3 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0;
+}
+
+.projectCard h4 {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    margin: 10px 0 5px 0;
+}
+
+.projectCard p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.projectCard ul {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 5px 0;
+    padding-left: 20px;
+}
+
+.cardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.cardColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imageColumn {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.dateBoxes {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dateBox {
+    flex: 1;
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 15px;
+    text-align: center;
+}
+
+.dateBox.startDate {
+    background-color: var(--blue);
+}
+
+.dateBox.endDate {
+    background-color: var(--red);
+}
+
+.dateLabel {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.dateValue {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.skillsSection {
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.summarySection {
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    flex-grow: 1;
+}
+
+.imageCarousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.projectImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: var(--radius);
+    transform: scale(1.0); /* Scales the image to 50% */
+    transform-origin: top left; /* Optional: Sets the scaling origin */
+}
+
+.imageIndicators {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: var(--border);
+    background-color: var(--white);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0;
+}
+
+.indicator.active {
+    background-color: var(--red);
+}
+
+.indicator:hover {
+    background-color: var(--blue);
+}
+
+.insightsSection {
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.projectCarousel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    width: 100%;
+}
+
+.carouselBtn {
+    background: var(--black);
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.carouselBtn:hover {
+    background-color: var(--blue);
+}
+
+.projectIndicators {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}

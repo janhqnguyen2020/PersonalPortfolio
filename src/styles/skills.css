@@ -1,0 +1,41 @@
+.skillsBox {
+    background-color: var(--white);
+    border: var(--border);
+    border-radius: var(--radius);
+
+    max-width: 800px;     
+    width: 100%;     
+    padding: 30px 28px;
+    margin: 0 auto;
+
+    box-shadow: var(--shadow), var(--whiteGlow); /* bold graphic shadow */
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.skillsBox h2 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0;
+}
+.skillsBox h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+    color: var(--black);
+}
+
+.skillsBox p {
+    font-size: 14px;
+    margin-top: 4px;
+    justify-content: center;
+    line-height: 1.6;
+}

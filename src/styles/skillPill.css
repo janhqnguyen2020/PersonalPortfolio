@@ -1,0 +1,14 @@
+.skillPill {
+    display: inline-block;
+    background-color: var(--blue);
+    border-radius: var(--radius);
+    padding: 6px 12px;
+    margin: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.skillPill:hover {
+    opacity: 1;
+}

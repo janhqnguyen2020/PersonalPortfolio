@@ -1,0 +1,30 @@
+.portfolio-footer {
+    background-color: var(--black);
+    background: var(--black);
+
+    width: 100%;    
+    padding: 16px 24px;
+
+    text-align: center;
+
+    color: var(--white);
+}
+
+.footer-row {
+    display: flex; 
+    align-items: center;
+    padding: 16px 20px;
+    gap: 30px;
+    justify-content: flex-start; /*icon stays on left side*/
+}
+
+.footer-row p {
+    margin: 0;
+}
+
+.footer-divider {
+    margin-top: 16px;
+    height: 1px;
+    background: var(--white);
+    width: 100%
+}
